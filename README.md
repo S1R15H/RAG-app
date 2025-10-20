@@ -10,9 +10,9 @@ Key components
 - Amazon Bedrock (via boto3): embedding and LLM model invocation (`data_loader.py` + `main.py`).
 - Qdrant: local vector store for embeddings (`vector_db.py`).
 
-!["Homescreen UI"](https://github.com/S1R15H/RAG-app/images/image-1.png)
-!["Homescreen output 1"](https://github.com/S1R15H/RAG-app/images/image-2.png)
-!["Homescreen output 2"](https://github.com/S1R15H/RAG-app/images/image-3.png)
+!["Homescreen UI"](https://github.com/S1R15H/RAG-app/blob/2d4da368c303b81bb0b8230d6c19736973c8c845/images/image-1.png)
+!["Homescreen output 1"](https://github.com/S1R15H/RAG-app/blob/2d4da368c303b81bb0b8230d6c19736973c8c845/images/image-2.png)
+!["Homescreen output 2"](https://github.com/S1R15H/RAG-app/blob/2d4da368c303b81bb0b8230d6c19736973c8c845/images/image-3.png)
 
 High-level workflow
 1. Ingest (PDF -> vectors):
