@@ -3,6 +3,8 @@
 
 This repository is a small RAG (Retrieval-Augmented Generation) demonstration that ingests PDFs, stores chunk embeddings in a vector database (Qdrant), and answers user questions by retrieving relevant chunks and calling an LLM hosted via Amazon Bedrock.
 
+!["Homescreen UI"](https://github.com/S1R15H/RAG-app/blob/2d4da368c303b81bb0b8230d6c19736973c8c845/images/image-1.png)
+
 Key components
 - FastAPI + Inngest: server and function orchestration (see `main.py`).
 - Streamlit: simple front-end for uploading PDFs and asking questions (`streamlit_app.py`).
@@ -10,9 +12,14 @@ Key components
 - Amazon Bedrock (via boto3): embedding and LLM model invocation (`data_loader.py` + `main.py`).
 - Qdrant: local vector store for embeddings (`vector_db.py`).
 
+---
+
+## OUTPUTS
 !["Homescreen UI"](https://github.com/S1R15H/RAG-app/blob/2d4da368c303b81bb0b8230d6c19736973c8c845/images/image-1.png)
 !["Homescreen output 1"](https://github.com/S1R15H/RAG-app/blob/2d4da368c303b81bb0b8230d6c19736973c8c845/images/image-2.png)
 !["Homescreen output 2"](https://github.com/S1R15H/RAG-app/blob/2d4da368c303b81bb0b8230d6c19736973c8c845/images/image-3.png)
+
+---
 
 High-level workflow
 1. Ingest (PDF -> vectors):
