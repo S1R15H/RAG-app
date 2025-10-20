@@ -12,3 +12,16 @@ qdrant_storage/
 .venv
 .idea
 .env
+*.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# macOS files
+.DS_Store
+
+# VSCode settings
+.vscode/
